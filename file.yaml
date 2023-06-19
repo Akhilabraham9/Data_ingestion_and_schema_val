@@ -1,0 +1,28 @@
+columns: 
+    - user_id
+    - text
+    - date
+    - review_id
+    - business_id
+    - funny
+    - cool
+    - useful
+    - stars
+dataset_name: yelp_academic_dataset_review
+dtypes:
+    user_id: string
+    text: string
+    date: string
+    review_id: string
+    business_id: string
+    funny: float32
+    cool: float32
+    useful: float32
+    stars: float32
+file_type: csv
+
+file_name: data
+table name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
